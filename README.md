@@ -1,6 +1,8 @@
 # Ansible Role: MkDocs
 
+[![Ansible Galaxy](http://img.shields.io/badge/galaxy-novuso.mkdocs-000000.svg)](https://galaxy.ansible.com/list#/roles/3893)
 [![MIT License](http://img.shields.io/badge/license-MIT-003399.svg)](http://opensource.org/licenses/MIT)
+[![Build Status](https://travis-ci.org/novuso/ansible-role-mkdocs.svg)](https://travis-ci.org/novuso/ansible-role-mkdocs)
 
 An Ansible role that manages MkDocs on Ubuntu 14.04
 
