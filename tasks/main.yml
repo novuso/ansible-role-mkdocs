@@ -1,0 +1,18 @@
+---
+- name: "pip installed"
+  sudo: yes
+  apt:
+    name: "{{ item }}"
+    state: present
+    update_cache: yes
+    cache_valid_time: 3600
+  with_items:
+  - "python"
+  - "python-dev"
+  - "python-pip"
+
+- name: "mkdocs installed"
+  sudo: yes
+  pip:
+    name: "mkdocs"
+    state: "{% if mkdocs_keep_updated %}latest{% else %}present{% endif %}"

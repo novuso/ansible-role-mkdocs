@@ -1,0 +1,15 @@
+---
+dependencies: []
+galaxy_info:
+  author: novuso
+  description: MkDocs for Ubuntu 14.04
+  company: Novuso
+  license: license (MIT)
+  min_ansible_version: 1.6
+  platforms:
+  - name: Ubuntu
+    versions:
+    - trusty
+  categories:
+  - development
+  - web
