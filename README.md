@@ -14,7 +14,7 @@ None
 
 Ansible variables are listed here along with their default values:
 
-`mkdocs_keep_updated` flags whether or not to keep mkdocs updated.
+`mkdocs_keep_updated` flags whether or not to keep MkDocs updated.
 
     mkdocs_keep_updated: true
 
